@@ -11,8 +11,10 @@
     width: 487px;
     border-color: none;
     border: white;
-    padding: 0px 5px 0px 5px;
+    padding: 4px 5px 4px 50px;
     font-size: 16px;
+    border: 1px solid grey;
+    border-radius: 50px;
 }
 
 
