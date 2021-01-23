@@ -17,7 +17,6 @@
     border-radius: 50px;
 }
 
-
 #logo {
     padding-bottom: 200px;
 }
@@ -26,3 +25,11 @@ html {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+#search-glass {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 48.35%;
+    left: 15%;
+    z-index: 1;
+}
