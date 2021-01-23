@@ -26,11 +26,11 @@ html {
 }
 
 #search-glass {
-    width: 25px;
-    height: 25px;
+    width: 27px;
+    height: 27px;
     position: absolute;
     top: 48.35%;
-    left: 30.5%;
+    left: 30.25%;
     z-index: 1;
 }
 
@@ -38,7 +38,7 @@ html {
     width: 25px;
     height: 30px;
     position: absolute;
-    top: 48%;
+    top: 48.35%;
     right: 30.25%;
     z-index: 1;
 }
