@@ -13,10 +13,14 @@
     width: 487px;
     border-color: none;
     border: white;
-    padding: 4px 50px 4px 50px;
+    padding: 7px 50px 7px 50px;
     font-size: 16px;
     border: 1px solid grey;
     border-radius: 50px;
+}
+
+#search-area:hover {
+    box-shadow: 2px 3px 5px 3px #cfcece;
 }
 
 /* Distancing the logo from the bottom */
@@ -34,7 +38,7 @@ html {
     width: 27px;
     height: 27px;
     position: absolute;
-    top: 48.35%;
+    top: 48.1%;
     left: 30.25%;
     z-index: 1;
 }
@@ -44,7 +48,64 @@ html {
     width: 25px;
     height: 30px;
     position: absolute;
-    top: 48.35%;
+    top: 48%;
     right: 30.25%;
     z-index: 1;
+}
+
+/* Header Navbar */
+
+.List-1, .List-2 {
+    margin-top: 2.5px;
+    padding-right: 10px;
+}
+
+li {
+    list-style-type: none;
+    font-size: 14px;
+    display: inline-flex;
+    float: left;
+}
+
+.header-navbar-right {
+    float: right;
+}
+
+.header-navbar-right:last-child { 
+    margin-right: 15px;
+}
+
+.List-3, .List-4 {
+    margin-top: 5px;
+}
+
+a {
+    padding: 8px;  
+}
+
+.pfp {    
+    border-radius: 50%;
+}
+
+a {
+    text-decoration: none;
+}
+a:visited { 
+    text-decoration: none; 
+    color:black; 
+}
+
+a:hover { 
+    text-decoration: none; 
+    color: black; 
+}
+
+a:focus { 
+    text-decoration: none; 
+    color: black; 
+}
+
+a:hover, a:active { 
+    text-decoration: none; 
+    color: black ;
 }
