@@ -111,3 +111,29 @@ a:hover, a:active {
     text-decoration: none; 
     color: black ;
 }
+
+.btn {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    text-align: center;
+    display: inline-block;
+}
+
+#google-search-btn {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+}
+
+#feeling-lucky-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
