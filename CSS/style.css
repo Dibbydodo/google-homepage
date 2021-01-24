@@ -12,10 +12,9 @@
     height: 34px;
     width: 487px;
     border-color: none;
-    border: white;
+    border: 1px solid #d6d6d6;
     padding: 7px 50px 7px 50px;
     font-size: 16px;
-    border: 1px solid rgb(214, 214, 214);
     border-radius: 50px;
 }
 
