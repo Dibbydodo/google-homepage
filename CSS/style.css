@@ -1,7 +1,7 @@
 /* Centering the main objects */
 .centre-page {
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%) 
@@ -38,7 +38,7 @@ html {
     width: 20px;
     height: 20px;
     position: absolute;
-    top: 48.75%;
+    top: 43.5%;
     left: 30.25%;
     z-index: 1;
 }
@@ -48,7 +48,7 @@ html {
     width: 15px;
     height: 20px;
     position: absolute;
-    top: 48.75%;
+    top: 43.5%;
     right: 30.25%;
     z-index: 1;
 }
@@ -76,11 +76,13 @@ li {
 }
 
 .List-3, .List-4 {
-    margin-top: 5px;
+    margin-top: 8px;
 }
 
 a {
-    padding: 8px;  
+    padding: 8px;
+    color: black;  
+    font-size: 13px;
 }
 
 .pfp {    
