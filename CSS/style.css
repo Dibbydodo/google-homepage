@@ -38,7 +38,7 @@ html {
     width: 20px;
     height: 20px;
     position: absolute;
-    top: 43.5%;
+    top: 43.75%;
     left: 30.25%;
     z-index: 1;
 }
@@ -48,7 +48,7 @@ html {
     width: 15px;
     height: 20px;
     position: absolute;
-    top: 43.5%;
+    top: 43.75%;
     right: 30.25%;
     z-index: 1;
 }
@@ -62,7 +62,6 @@ html {
 
 li {
     list-style-type: none;
-    font-size: 14px;
     display: inline-flex;
     float: left;
 }
@@ -79,10 +78,10 @@ li {
     margin-top: 8px;
 }
 
-a {
+header a {
     padding: 8px;
     color: black;  
-    font-size: 13px;
+    font-size: 14px;
 }
 
 .pfp {    
@@ -91,7 +90,9 @@ a {
 
 a {
     text-decoration: none;
+    color: #3c4043;
 }
+
 a:visited { 
     text-decoration: none; 
     color:black; 
@@ -129,11 +130,41 @@ a:hover, a:active {
 #google-search-btn {
     position: absolute;
     top: 50%;
-    left: 40%;
+    left: 39%;
 }
 
 #feeling-lucky-btn {
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 51%;
+}
+
+.btn:hover {
+    border: solid 1px #cfcece;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #F2F2F2;
+    line-height: 30px;
+    border-top: 1px solid #dadce0;
+}
+
+.footer-navbar-right {
+    float: right;
+}
+
+footer a {
+    display: inline-block;
+    padding-left: 27px;
+    color: #70757a; 
+    font-size: 14px;
+    margin: 0;
+    white-space: nowrap;
+    position: relative;
+    right: 25px;
+    bottom: 7px;
 }
